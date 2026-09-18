@@ -1,0 +1,14 @@
+{
+  "parent": "crossbreeding:obtain_seed",
+  "display": {
+    "icon": { "id": "crossbreeding_colchicine:colchicine_solution" },
+    "title": { "text": "单倍体育种" },
+    "description": { "text": "使用秋水仙素溶液加倍配子" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}
